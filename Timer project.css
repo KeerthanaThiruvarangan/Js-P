@@ -32,9 +32,9 @@
 #hours1,#minutes1,#am,#seconds{
         width:80px;
     height:80px;
-    background:#fff;
-    color:#000;
-    border:1px solid #fff;
+    background:green;
+    color:black;
+    border:1px solid yellow;
     border-radius:10px;
     box-shadow:5px 3px 2px #413e3e;
     display:flex;
