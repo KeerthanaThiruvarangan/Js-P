@@ -12,6 +12,22 @@ function intro()
     let AM=document.getElementById('am');
     
 
+if(hrs1>=12)
+
+{
+
+    AM.innerHTML="PM";
+
+}
+
+else{
+
+    AM.innerHTML="AM";
+
+}
+
+
+
     if (hrs1 > 12) {
     hrs1 = hrs1 - 12;
 } else if (hrs1 == 0) {
