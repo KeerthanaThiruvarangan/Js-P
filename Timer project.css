@@ -9,7 +9,7 @@
     align-items:center;
     gap:8px;
     margin-top:200px;
-    flex-wrap:nowrap;
+    
 }
 
 
@@ -64,7 +64,14 @@
     }
 
 
-    
+    #hours,
+#hours1,
+#minutes,
+#minutes1,
+#seconds,
+#am{
+    flex-shrink: 0;
+}
 
 
  *{
