@@ -69,32 +69,7 @@ span{
     }
 
 
-    @media  all and (max-width:820px) {
-    .container #hours,#hours1{
-        position:relative;
-        right:220px;
-    }
-
-    span{
-        position: relative;
-        right:225px;
-    }
-
-    /* #seconds{
-        position:relative;
-        top:80px;
-    } */
-
-
-
-    #am{
-        position:relative;
-        top:80px;
-        left: -215px;
-        
-    }
     
-} 
 
 
  *{
