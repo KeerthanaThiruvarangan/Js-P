@@ -36,14 +36,12 @@
         box-shadow: 5px 3px 2px  #413e3e;
 
         width:70px;
-height:70px;
+        height:70px;
 
-display:flex;
-justify-content:center;
-align-items:center;
-
-
-    }
+        display:flex;
+       justify-content:center;
+        align-items:center;
+ }
 
 
  
@@ -57,7 +55,7 @@ align-items:center;
 
 #time{
     color:white;
-   text-align: center;
+   
    font-size: large;
 }
 
