@@ -24,6 +24,9 @@
     display:flex;
     gap:10px;
     align-items:center;
+    justify-content: space-evenly;
+    
+
 }
 
 #hours1,#minutes1,#am,#seconds{
