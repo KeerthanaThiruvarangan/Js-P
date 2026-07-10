@@ -10,25 +10,13 @@ function intro()
     let sec=time.getSeconds();
 
     let AM=document.getElementById('am');
-    AM=innerHTML=am;
+    
 
-    if(hrs1>=12)
-    {
-        AM.innerHTML="PM";
-    }
-    else{
-        AM.innerHTML="AM";
-    }
-
-    if(hrs1>12)
-    {
-        hrs1-=12;
-    }
-     
-    else {
-        hrs1=''+12;
-    }
-
+    if (hrs1 > 12) {
+    hrs1 = hrs1 - 12;
+} else if (hrs1 == 0) {
+    hrs1 = 12;
+}
     
     document.getElementById('hours1').innerHTML=hrs1
     document.getElementById('minutes1').innerHTML=min1
