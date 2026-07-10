@@ -26,14 +26,7 @@
     }
 
 
-    #hours,
-#hours1,
-#minutes,
-#minutes1,
-#seconds,
-#am{
-    flex-shrink: 0;
-}
+    
 
 
  *{
