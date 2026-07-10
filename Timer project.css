@@ -13,41 +13,7 @@
 }
 
 
-#hours,#hours1{
-    border:1px solid white;
-    padding:30px;
-    background-color: white;
-    color:black;
-    font-size: large;
-    font-weight: bolder;
-    border-radius: 10px;
-    margin:5px;
-    box-shadow: 5px 3px 2px #413e3e;
-}
-
-
-
-#minutes,#minutes1{
-    border:1px solid white;
-    padding:30px;
-    background-color: white;
-    color:black;
-    font-size: large;
-    font-weight: bolder;
-    border-radius: 10px;
-    margin:5px;
-    box-shadow: 5px 3px 2px  #413e3e;
-}
-
-#am{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 28px;
-    min-width: 80px;
-}
-
-#seconds{
+#hours,#hours1,#minutes,#minutes1,#am,#seconds{
         border:1px solid white;
         padding:30px;
         background-color: white;
