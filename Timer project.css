@@ -4,12 +4,14 @@
 }
 
 .container{
-    color:white;
-    position:relative;
-    top:250px;
-    left:220px;
-    text-align: justify;
-}
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
 
 #hours,#hours1{
     border:1px solid white;
