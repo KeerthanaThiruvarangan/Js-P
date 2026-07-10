@@ -30,8 +30,8 @@
      
 
 #hours1,#minutes1,#am,#seconds{
-        border:1px solid white;
-        background-color: white;
+        border:1px solid yellow;
+        background-color: red;
         color:black;
         font-size: large;
         font-weight: bolder;
